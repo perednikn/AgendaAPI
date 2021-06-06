@@ -1,0 +1,169 @@
+body{
+    background-color: aqua;
+    display: inline flex;
+    overflow: hidden;
+    
+}
+
+
+
+#usuarioCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 3px;
+    grid-template-areas: "user1 user2 user3"
+                         "user4 user5 user6";
+    margin-bottom: 30px;
+
+ 
+}
+
+.pagination{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#banner{
+    text-align: center;
+    padding-top: 13px;
+
+}
+
+#verTodos{
+  display:contents;
+    justify-items: center;
+    
+}
+
+#principal{
+    height: 54px;
+}
+
+#verId{
+    height: 455px;
+    width: 900px;
+               
+  /*   border: 1px solid #000000;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    */
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+   }
+
+
+
+#botoneraId{
+  
+   height: 60px;
+   display: flex;
+   flex-wrap: nowrap;
+ 
+    
+    justify-content: space-evenly;
+    
+
+}
+
+.btnOpcionId{
+    max-width: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#infoId{
+    height: 290px;
+    margin-top: -80px;
+    justify-content: center;
+
+    
+}
+
+
+.presentacion{
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 30px;
+
+}
+
+.botonPropio{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+}
+
+.botonPropio:hover{
+    background-color: white;
+    color: green;
+    
+}
+#botonera{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+#crear{
+    display: none;
+    height: 433fpx;
+
+}
+
+.formCreaUser{
+    margin-top: 110px;    
+    background-color: blueviolet;
+    height: 300px;
+    
+}
+
+.botoneraForm{
+    margin-bottom: 210px;
+    display: inline-flex;
+   justify-content: space-evenly;
+   
+}
+
+.datosForm{
+    padding-top: 50px;
+}
+
+#btnHome{
+    color: pink;
+    justify-self: right;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    
+}
+
+.botoneraHome{
+    display: flex;
+    justify-content: center;
+}
+
+.divRegistroExitoso{
+    display: flex;
+    padding-top: 115px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.cardID{
+    padding-top: 8px;
+    text-align: center;
+}
+
+.cardVerTodos{
+    text-align: center;
+}

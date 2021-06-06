@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mis contactos</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- JS SCRIPT -->
+  <script defer src="index.js"></script>
+  <!-- JQUERY SCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" , type="text/css" , href="style.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div id="banner">
+      <h2> Mi Agenda v1.0</h2>
+    </div>
+  </header>
+  <main>
+
+    <div id="principal">
+      <h2 class="presentacion"> ¿Qué deseas hacer?</h2>
+      <div class="container" id="botonera">
+    
+
+        <button class="botonPropio" id="btnVerTodos"> VER TODOS </button>
+        <button class="botonPropio" id="btnVerId"> VER POR ID </button>
+        <button class="botonPropio" id="btnCrear"> CREAR USUARIO </button>
+      </div>
+    </div>
+
+<!--       Div para filtrar contactos por id -->
+    <div class="container" id="divId">
+      <div class="row" id="verId">
+      
+          <!-- ACA VAN LOS SELECTORES Y LA INFO POR ID -->  
+       
+      </div>
+    
+    </div>
+
+<!--       Div para ver toda la agenda -->
+    <div id="verTodos">
+      <div class="container" id="navPagina">
+        
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+
+            <li class="page-item"><a class="page-link" href="#" onclick="userPagina(1)">1</a></li>
+            <li class="page-item"><a class="page-link" href="#" onclick="userPagina(2)">2</a></li>
+
+          </ul>
+        </nav>
+      </div>
+
+      <div class="container" id="usuarioCards">
+        
+      </div>
+      <div class="container" id="divHome"></div>
+ 
+    </div>
+ 
+    <!-- div crea registro -->
+    <div id="crear">
+        
+    </div>
+  </main>
+  <footer id="footer">
+  
+  </footer>
+</body>
+
+</html>
